@@ -5,19 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Drawing App</title>
+    <title>Sticky Navbar</title>
 </head>
 <body>
-
-    <canvas id="canvas" width="800" height="800"></canvas>
-    <div class="toolbox">
-        <button id="decrease">-</button>
-        <span id="size">10</span>
-        <button id="increase">+</button>
-        <input type="color" id="color">
-        <button id="clear">X</button>
-    </div>
     
+    <nav class="nav">
+        <div class="container">
+            <h1 class="logo"><a href="/index.html">My Website</a></h1>
+            <ul>
+                <li><a href="#" class="current">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="hero">
+        <div class="container">
+            <h1>Welcome to My Website</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam, quis.</p>
+        </div>
+    </div>
+
+    <section class="container content">
+        <h2>Content One</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure at harum iusto eaque necessitatibus laborum quaerat omnis, quisquam modi quas hic maxime doloribus sequi voluptas minima. Ipsa repellendus consequuntur iste voluptas reiciendis? Impedit ad odit nulla sit dolorum officiis molestias, minima labore itaque reiciendis perferendis iusto nihil fuga doloremque voluptatem? Sunt assumenda illo ab unde eligendi iure culpa accusamus, reprehenderit perferendis ullam, cumque eaque sapiente tempore adipisci a autem sint distinctio. Magni nostrum quaerat animi hic ratione illum, voluptatem iure, doloribus dolore tenetur asperiores, aliquam delectus! Iure deserunt, cupiditate quam nesciunt assumenda possimus atque placeat corporis nam tenetur repudiandae quia!</p>
+        <h3>Content Two</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum adipisci veritatis quas voluptatem alias expedita architecto, ipsam quam minus, ullam debitis enim. Animi quod labore provident, harum aperiam autem in nisi molestias? Possimus ipsum, soluta quisquam harum recusandae provident quidem obcaecati amet quam sit ullam facere exercitationem placeat laboriosam ad!</p>
+    </section>
+
     <script src="app.js"></script>
 </body>
 </html>
